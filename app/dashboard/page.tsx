@@ -90,14 +90,12 @@ export default function Home() {
           items[i].login.uri = uri;
           items[i].notes = notes;
         }
-
         setvault(items);
-        setloading(false);
 
       }
     };
     if (status === "authenticated") {
-      getItems().catch((error) => console.log(error));
+      getItems().catch((error) => console.log(error)).then(()=>{setloading(false)});
     }
   }, [openmodal, session, reload]);
 
