@@ -1,0 +1,12 @@
+<svg fill="#ffffff" viewBox="0 0 24 24" id="eye-alt" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg"
+    class="icon flat-color" stroke="#ffffff">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <circle id="primary" cx="12" cy="12" r="10" style="fill: #ff0040;"></circle>
+        <path id="secondary"
+            d="M17.8,11.4C17.7,11.26,15.23,8,12,8s-5.7,3.26-5.8,3.4a1,1,0,0,0,0,1.2c.1.14,2.57,3.4,5.8,3.4s5.7-3.26,5.8-3.4A1,1,0,0,0,17.8,11.4Z"
+            style="fill: #1b18e2;"></path>
+        <circle id="primary-2" data-name="primary" cx="12" cy="12" r="1.5" style="fill: #ff0040;"></circle>
+    </g>
+</svg>
