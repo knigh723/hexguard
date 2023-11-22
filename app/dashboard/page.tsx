@@ -92,12 +92,12 @@ export default function Home() {
         }
 
         setvault(items);
-        console.log(items);
+        setloading(false);
+
       }
     };
     if (status === "authenticated") {
       getItems().catch((error) => console.log(error));
-      setloading(false);
     }
   }, [openmodal, session, reload]);
 
