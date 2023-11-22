@@ -65,7 +65,7 @@ export const options: NextAuthOptions = {
         try {        
           const res = await User.findOne({ username: user.email });
           if (!res) {
-            const userid = await fetch("http://192.168.0.103:3000/api/gen", {
+            const userid = await fetch("/api/gen", {
               method: "GET",
               headers: {
                 "Content-Type": "application/json",
@@ -73,7 +73,7 @@ export const options: NextAuthOptions = {
             });
             if (userid.ok) {
               const { accountid } = await userid.json();
-              const response: Response = await fetch("http://192.168.0.103:3000/api/register", {
+              const response: Response = await fetch("/api/register", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
